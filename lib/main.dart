@@ -1,3 +1,4 @@
+import 'package:factory_pattern/abstract_factory_example.dart';
 import 'package:factory_pattern/android_dialog.dart';
 import 'package:factory_pattern/custom_dialog.dart';
 import 'package:factory_pattern/ios_dialog.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: AbstractFactoryExample(),
     );
   }
 }
